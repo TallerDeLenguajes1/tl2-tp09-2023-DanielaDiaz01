@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using tp9Daniela;
-namespace tp9DanielaControllersControllers;
+namespace tp9DanielaControllers;
 
 [ApiController]
 [Route("[controller]")]

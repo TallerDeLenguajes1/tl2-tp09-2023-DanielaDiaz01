@@ -1,25 +1,29 @@
-public class Tarea{
-    int id;
-    int idUsuarioPropietario;
-    int idTablero;
-    string nombre;
-    string color;
-    string descripcion;
-    EstadoTarea estado;
+namespace tp9Daniela{
+  
+  public enum EstadoTarea{
+    Ideas, 
+    ToDo, 
+    Doing, 
+    Review, 
+    Done
+  }
+  public class Tarea{
+      int id;
+      int idTablero;
+      string nombre;
+      EstadoTarea estado;
+      string descripcion;
+      string color;
+      int idUsuarioAsignado;
+     
 
-    public int Id { get => id; set => id = value; }
-    public int IdUsuarioPropietario { get => idUsuarioPropietario; set => idUsuarioPropietario = value; }
-    public int IdTablero { get => idTablero; set => idTablero = value; }
-    public string Nombre { get => nombre; set => nombre = value; }
-    public string Color { get => color; set => color = value; }
-    public string Descripcion { get => descripcion; set => descripcion = value; }
-    public EstadoTarea Estado { get => estado; set => estado = value; }
-}
+      public int Id { get => id; set => id = value; }
+      public int IdTablero { get => idTablero; set => idTablero = value; }
+      public string Nombre { get => nombre; set => nombre = value; }
+      public EstadoTarea Estado { get => estado; set => estado = value; }
+      public string Descripcion { get => descripcion; set => descripcion = value; }
+      public string Color { get => color; set => color = value; }
+      public int IdUsuarioAsignado { get => idUsuarioAsignado; set => idUsuarioAsignado = value; } 
+  }
 
-public enum EstadoTarea{
-  Ideas, 
-  ToDo, 
-  Doing, 
-  Review, 
-  Done
 }

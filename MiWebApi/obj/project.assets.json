@@ -1664,24 +1664,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IngPabloLRomano\\.nuget\\packages\\": {}
+    "C:\\Users\\ROG BY NG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IngPabloLRomano\\Desktop\\tl2-tp09-2023-DanielaDiaz01\\MiWebApi\\MiWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\ROG BY NG\\Desktop\\tl2-tp09-2023-DanielaDiaz01\\MiWebApi\\MiWebApi.csproj",
       "projectName": "MiWebApi",
-      "projectPath": "C:\\Users\\IngPabloLRomano\\Desktop\\tl2-tp09-2023-DanielaDiaz01\\MiWebApi\\MiWebApi.csproj",
-      "packagesPath": "C:\\Users\\IngPabloLRomano\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IngPabloLRomano\\Desktop\\tl2-tp09-2023-DanielaDiaz01\\MiWebApi\\obj\\",
+      "projectPath": "C:\\Users\\ROG BY NG\\Desktop\\tl2-tp09-2023-DanielaDiaz01\\MiWebApi\\MiWebApi.csproj",
+      "packagesPath": "C:\\Users\\ROG BY NG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ROG BY NG\\Desktop\\tl2-tp09-2023-DanielaDiaz01\\MiWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IngPabloLRomano\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ROG BY NG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
